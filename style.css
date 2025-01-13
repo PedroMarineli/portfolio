@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=REM:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Sen:wght@400..800&display=swap');
+.div__body{
+    background: linear-gradient(to bottom, #7D8C87, #203D40);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    gap: 25vh;
+    touch-action: none;
+}
+
+.main__title__name{
+    color: #F0F2E9;
+    font-family: "Radio Canada", serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.main__title__sub{
+    color: #F0F2E9;
+    font-family: "REM", serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.main__button{
+    color: #7D8C87;
+    font-family: "Sen", serif;
+    font-size: medium;
+    border-radius: 23px;
+    width: 221px;
+    height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.footer__svg{
+    width: 30px;
+}
+
+.footer__credits{
+    color: #F0F2E9;
+    font-family: "Anonymous Pro", serif;
+    font-size: 10px;
+}
+
+.main__div__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__bt__footer{
+    display: flex;
+    gap: 11px;
+}
