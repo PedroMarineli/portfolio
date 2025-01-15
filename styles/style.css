@@ -41,6 +41,7 @@
 
 .footer__svg{
     width: 30px;
+    margin: 0px 5px;
 }
 
 .footer__credits{
@@ -67,7 +68,15 @@
 
 .div__bt__footer{
     display: flex;
-    gap: 11px;
+    align-items: center;
+    font-family: 'Nunito Sans';
+    color: #F0F2E9;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.2vh;
+    font-size: 13px;
+    text-decoration: underline;
+    width: auto;
 }
 
 .div__projects{
@@ -190,4 +199,22 @@
 .div__social{
     display: flex;
     gap: 1vh;
+}
+
+.menu__bt__footer{
+    display: block;
+}
+
+.footer__item{
+    display: none;
+    color: #F0F2E9;
+}
+
+.footer__itens{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
