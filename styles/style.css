@@ -70,7 +70,6 @@
     display: flex;
     align-items: center;
     font-family: 'Nunito Sans';
-    color: #F0F2E9;
     text-transform: uppercase;
     font-weight: 100;
     letter-spacing: 0.2vh;
@@ -212,9 +211,33 @@
 
 .footer__itens{
     display: flex;
+    flex-direction: row;
     gap: 0.5rem;
     align-items: center;
-    width: 100%;
     overflow: hidden;
     white-space: nowrap;
+    justify-content: center;
 }
+
+.footer__itens__child{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: min-content;
+    justify-content: center;
+}
+
+.menu__click__animation{
+    animation-name: animation-menu;
+    animation-duration: 1s;
+}
+
+@keyframes animation-menu {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
