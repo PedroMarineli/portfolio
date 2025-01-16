@@ -7,6 +7,7 @@
     cursor: pointer;
     animation-name: animation-bt-footer;
     animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animation-bt-footer {
@@ -44,6 +45,8 @@
     font-size: 0.813rem;
     text-decoration: underline;
     width: auto;
+    gap: 0.3rem;
+    text-underline-offset: 0.11rem;
 }
 
 .menu__bt__footer{
@@ -58,7 +61,6 @@
 .footer__itens{
     display: flex;
     flex-direction: row;
-    gap: 0.5rem;
     align-items: center;
     overflow: hidden;
     white-space: nowrap;

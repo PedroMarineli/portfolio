@@ -1,0 +1,41 @@
+/* S mobile*/
+@media (min-width: 0px) { 
+    html{ 
+       font-size: 12px; 
+    }
+}
+
+/* M mobile*/
+@media (min-width: 375px) { 
+    html{ 
+       font-size: 14px; 
+    }
+}
+
+/* tablet */
+@media (min-width: 728px) { 
+    html{ 
+       font-size: 16px; 
+    }
+}
+
+/* laptop */
+@media (min-width: 1024px) { 
+    html{ 
+       font-size: 17px; 
+    }
+}
+
+/* L laptop */
+@media (min-width: 1440px) { 
+    html{ 
+       font-size: 19px; 
+    }
+}
+
+/* 4k */
+@media (min-width: 2560px) { 
+    html{ 
+       font-size: 23px; 
+    }
+}

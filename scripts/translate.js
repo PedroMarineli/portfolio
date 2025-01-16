@@ -17,7 +17,7 @@ const translationsEN ={
 
 function translate(){
     const button = document.querySelector(".trans__button__footer")
-    
+
     if(localStorage.getItem("translated") === "true"){
         button.setAttribute("src", "icons/brasil.svg")
         document.querySelectorAll("[tr-data]").forEach(item => {
@@ -26,9 +26,11 @@ function translate(){
                 item.textContent = translationsBR[key]
             }
         }) 
-        const div = document.querySelectorAll(".footer__itens__child").forEach(div =>{
-            div.style.flexWrap = "wrap"
-        })
+        if(window.innerWidth < 768){
+            const div = document.querySelectorAll(".footer__itens__child").forEach(div =>{
+                div.style.flexWrap = "wrap"
+            })
+        }
     } else{
         button.setAttribute("src", "icons/usa.svg")
         document.querySelectorAll("[tr-data]").forEach(item => {
