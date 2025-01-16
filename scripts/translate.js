@@ -1,4 +1,4 @@
-const translations ={
+const translationsBR ={
     "home": "principal",
     "works": "trabalhos", 
     "skills": "habilidades", 
@@ -6,14 +6,41 @@ const translations ={
     "soft dev": "desenvolvedor de software", 
     "talk": "fale comigo"
 }
+const translationsEN ={
+    "home": "home",
+    "works": "works", 
+    "skills": "skills", 
+    "about": "about me", 
+    "soft dev": "software developer", 
+    "talk": "talk to me"
+}
 
 function translate(){
-    document.querySelectorAll("[tr-data]").forEach(item => {
-        const key = item.getAttribute("tr-data");
-        if(translations[key]){
-            item.textContent = translations[key]
-        }
-    }) 
+    const button = document.querySelector(".trans__button__footer")
+    
+    if(localStorage.getItem("translated") === "true"){
+        button.setAttribute("src", "icons/brasil.svg")
+        document.querySelectorAll("[tr-data]").forEach(item => {
+            const key = item.getAttribute("tr-data");
+            if(translationsBR[key]){
+                item.textContent = translationsBR[key]
+            }
+        }) 
+        const div = document.querySelectorAll(".footer__itens__child").forEach(div =>{
+            div.style.flexWrap = "wrap"
+        })
+    } else{
+        button.setAttribute("src", "icons/usa.svg")
+        document.querySelectorAll("[tr-data]").forEach(item => {
+            const key = item.getAttribute("tr-data");
+            if(translationsEN[key]){
+                item.textContent = translationsEN[key]
+            }
+        }) 
+        const div = document.querySelectorAll(".footer__itens__child").forEach(div =>{
+            div.style.flexWrap = "nowrap"
+        })
+    }
 }
 
 export default translate
