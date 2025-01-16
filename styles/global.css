@@ -16,6 +16,7 @@
     font-weight: 100;
     letter-spacing: 0.7rem;
     text-decoration: underline;
+    text-shadow: 0rem 0rem 0.6rem var(--color-5);
 }
 
 html { 

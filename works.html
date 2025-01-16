@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Works</title>
+    <title>Portfólio</title>
+
     <link rel="stylesheet" href="styles/resetcss.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsivity.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/works.css">
+
+    <script type="module" src="scripts/menuClick.js"></script>
+    <script type="module" src="scripts/translationClick.js"></script>
+    <script type="module" src="scripts/translationCheck.js"></script>
+    <script type="module" src="scripts/translate.js"></script>
+    <script type="module" src="scripts/themeChange.js"></script>
+    <script type="module" src="scripts/themeClick.js"></script>
 </head>
 <body class="div__body">
     <header>
@@ -13,7 +26,7 @@
     </header>
     <main>
         <div class="div__projects">
-            <img src="icons/arrow2.svg" alt="arrow">
+            <img src="icons/arrow2.svg" alt="arrow" class="projects__arrow">
             <div class="div__work">
                 <h5 class="title__work">Burguer boss</h5>
                 <img src="img/burguerboss.png" alt="project called burguerboss" class="img__work">
@@ -24,16 +37,26 @@
                     <img src="icons/postgree.svg" alt="postgreeSQL" class="svg__work">
                 </div>
             </div>
-            <img src="icons/arrow.svg" alt="arrow">
+            <img src="icons/arrow.svg" alt="arrow" class="projects__arrow">
         </div>
     </main>
     <footer class="div__footer">
         <div class="div__bt__footer">
-            <img src="icons/lightmode.svg" alt="light mode button" class="footer__svg">
-            <img src="icons/menu.svg" alt="menu button" class="footer__svg">
-            <img src="icons/usa.svg" alt="language button - usa" class="footer__svg">
+            <img src="icons/theme.svg" alt="theme button" class="footer__svg footer__theme">
+            <img src="icons/menu.svg" alt="menu button" class="footer__svg menu__bt__footer">
+            <div class="footer__itens">
+                <div class="footer__itens__child">
+                    <a class="footer__item" href="index.html" tr-data="home">home</a>
+                    <a class="footer__item" href="works.html" tr-data="works">works</a>
+                </div>
+                <div class="footer__itens__child">
+                    <a class="footer__item" href="skills.html" tr-data="skills">skills</a>
+                    <a class="footer__item" href="about.html" tr-data="about">about-me</a>
+                </div>
+            </div>
+            <img src="icons/usa.svg" alt="language button - usa" class="footer__svg trans__button__footer">
         </div>
-        <p class="footer__credits">Designed by Pedro H. Icons by <a class="footer__credits" href="https://icons8.com/">Icons8</a>.</p>
+        <p class="footer__credits">Designed by Pedro M. Icons by <a class="footer__credits" href="https://icons8.com/">Icons8</a>.</p>
     </footer>
 </body>
 </html>
