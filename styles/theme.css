@@ -19,7 +19,7 @@
 }
 
 .blue-theme{
-    --color-1: #F2F2F2;
+    --color-1: #c3ccf8;
     --color-2: #6393F2;
     --color-3: #00349c;
     --color-4: #092969;
@@ -27,7 +27,7 @@
 }
 
 .yellow-theme{
-    --color-1: #E4EAF2;
+    --color-1: #ffeec1;
     --color-2: #F2B705;
     --color-3: #F27507;
     --color-4: #8C1C03;
@@ -35,7 +35,7 @@
 }
 
 .dark-brown-theme{
-    --color-1: #D95F18;
+    --color-1: #e4ab8a;
     --color-2: #BF4417;
     --color-3: #400F04;
     --color-4: #731D0A;
