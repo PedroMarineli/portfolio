@@ -1,6 +1,6 @@
 .footer__svg{
-    width: 30px;
-    margin: 0px 5px;
+    width: 1.875rem;
+    margin: 0rem 0.313rem;
 }
 
 .footer__svg:hover{
@@ -20,10 +20,10 @@
   }
 
 .footer__credits{
-    color: #F0F2E9;
+    color: var(--color-1);
     font-family: "Anonymous Pro", serif;
-    font-size: 10px;
-    letter-spacing: 0.2vh;
+    font-size: 0.625rem;
+    letter-spacing: 0.1rem;
     font-weight: 100;
 }
 
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1vh;
+    gap: 0.7rem;
 }
 
 .div__bt__footer{
@@ -40,8 +40,8 @@
     font-family: 'Nunito Sans';
     text-transform: uppercase;
     font-weight: 100;
-    letter-spacing: 0.2vh;
-    font-size: 13px;
+    letter-spacing: 0.15rem;
+    font-size: 0.813rem;
     text-decoration: underline;
     width: auto;
 }
@@ -52,7 +52,7 @@
 
 .footer__item{
     display: none;
-    color: #F0F2E9;
+    color: var(--color-1);
 }
 
 .footer__itens{

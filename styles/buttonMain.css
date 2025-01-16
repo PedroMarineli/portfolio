@@ -1,18 +1,18 @@
 .main__button{
-    color: #7D8C87;
+    color: var(--color-2);
     font-family: "Sen", serif;
-    font-size: medium;
-    border-radius: 23px;
-    width: 221px;
-    height: 80px;
+    font-size: 1rem;
+    border-radius: 1.438rem;
+    width: 13.813rem;
+    height: 5rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.188rem;
     border: none;
-    background-color: #F0F2E9;
+    background-color: var(--color-1);
 }
 
 .main__button:hover{
-    background-color: #F0F2E9;
+    background-color: var(--color-1);
     cursor: pointer;
     animation-name: animation-bt;
     animation-duration: 3s;
@@ -21,17 +21,17 @@
 
 @keyframes animation-bt {
     0% {
-        background-color: #F0F2E9;
+        background-color: var(--color-1);
     }
   
     50% {
-        background-color: #203D40;
+        background-color: var(--color-3);
         transform: scale(1.05);
-        color: #F0F2E9;
-        border: 1.5px solid #F0F2E9;
+        color: var(--color-1);
+        border: 1.5px solid var(--color-1);
     }
 
     100% {
-        background-color: #F0F2E9;
+        background-color: var(--color-1);
     }
   }

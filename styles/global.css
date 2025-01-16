@@ -1,5 +1,5 @@
 .div__body{
-    background: linear-gradient(to bottom, #7D8C87, #203D40);
+    background: linear-gradient(to bottom, var(--color-2), var(--color-3));
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -10,10 +10,14 @@
 }
 
 .page__title{
-    color: #F0F2E9;
+    color: var(--color-1);
     font-family: 'Michroma';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 100;
-    letter-spacing: 0.7vh;
+    letter-spacing: 0.7rem;
     text-decoration: underline;
+}
+
+html { 
+    font-size: var(--fonte); 
 }
