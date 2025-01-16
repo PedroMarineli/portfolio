@@ -1,9 +1,15 @@
+import themeChange from "./themeChange.js"
+
 const button = document.querySelector(".footer__theme")
-console.log(button)
-const body = document.querySelector(".div__body")
-console.log(body)
+
+var currentTheme = localStorage.getItem("theme")
+
+if (currentTheme === null) {
+    currentTheme = "grey-theme"
+}
+console.log("tema atual = " + currentTheme)
+
 
 button.addEventListener("click", event =>{
-    console.log("click")
-    body.classList.add("test-theme")
+    themeChange(currentTheme)
 })
