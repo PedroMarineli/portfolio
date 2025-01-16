@@ -9,17 +9,18 @@
     letter-spacing: 0.188rem;
     border: none;
     background-color: var(--color-1);
+    box-shadow: 0.2rem 0.2rem 1rem var(--color-4);
 }
 
 .main__button:hover{
     background-color: var(--color-1);
     cursor: pointer;
-    animation-name: animation-bt;
+    animation-name: animation-bt-hover;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
-@keyframes animation-bt {
+@keyframes animation-bt-hover {
     0% {
         background-color: var(--color-1);
     }
@@ -29,6 +30,7 @@
         transform: scale(1.05);
         color: var(--color-1);
         border: 1.5px solid var(--color-1);
+        box-shadow: 0.2rem 0.2rem 1rem var(--color-1);
     }
 
     100% {
