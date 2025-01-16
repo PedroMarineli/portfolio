@@ -1,0 +1,29 @@
+.skill__card{
+    display: flex;
+    background-color: #203D40;
+    color: #F0F2E9;
+    align-items: center;
+    gap: 0.4vh;
+    border-radius: 27px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: 'Outfit';
+    letter-spacing: 0.3vh;
+    text-transform: capitalize;
+}
+
+.svg__skills{
+    width: 60px;
+}
+
+.div__skills{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vh;
+    justify-content: space-around;
+    gap: 2vh;
+    height: 60vh;
+    clip-path: margin-box;
+    overflow: auto;
+    touch-action: pan-y;
+}

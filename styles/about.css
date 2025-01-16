@@ -1,0 +1,36 @@
+.div__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 40vh;
+}
+
+.img__about{
+    width: 9rem;
+    border-radius: 50px;
+    border: 2px solid #011826;
+}
+
+.div__txt__about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+    font-family: 'Anonymous Pro';
+}
+
+.txt__title__about{
+    color: #011826;
+    font-weight: 700;
+}
+
+.txt__about{
+    color: #F0F2E9;
+    font-weight: 100;
+}
+
+.div__social{
+    display: flex;
+    gap: 1vh;
+}

@@ -1,0 +1,45 @@
+.img__work{
+    width: 70%;
+    border-radius: 13px;
+}
+
+.div__work{
+    display: flex;
+    flex-direction: column;
+    background-color: #7D8C87;
+    align-items: center;
+    padding: 2vh;
+    border-radius: 28px;
+    gap: 2vh;
+}
+
+.title__work{
+    color: #011826;
+    font-family: 'Outfit';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+}
+
+.div__svg__work{
+    display: flex;
+    gap: 2vh;
+}
+
+.desc__work{
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 12px;
+    color: #F0F2E9;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.div__projects{
+    display: flex;
+    width: 18rem;
+    justify-self: center;
+    gap: 2vh;
+}

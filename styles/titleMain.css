@@ -1,0 +1,22 @@
+.main__title__name{
+    color: #F0F2E9;
+    font-family: "Radio Canada", serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.main__title__sub{
+    color: #F0F2E9;
+    font-family: "REM", serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.main__div__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
